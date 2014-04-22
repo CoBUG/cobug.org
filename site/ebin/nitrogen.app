@@ -1,0 +1,11 @@
+{application,nitrogen,
+             [{description,"akb.io blog"},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{nitrogen_app,[]}},
+              {env,[]},
+              {modules,[aroundtheweb,common,contact,db_mgr,element_bubble,
+                        friends,index,mailing_list,meetings,members,mobile,
+                        nitrogen_app,nitrogen_inets,nitrogen_sup,tutorials,
+                        xmpp]}]}.

@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/qbit
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://cobug.org
+  * I am qbit (https://keybase.io/qbit) on keybase.
+  * I have a public key with fingerprint DB79 ED5F 0686 16A0 24B5  84F7 6C8D D831 AF53 65ED
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "db79ed5f068616a024b584f76c8dd831af5365ed",
+            "host": "keybase.io",
+            "key_id": "6C8DD831AF5365ED",
+            "uid": "8c894b43a9bec0785e9e9efc4b428d00",
+            "username": "qbit"
+        },
+        "service": {
+            "hostname": "cobug.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397618671,
+    "expire_in": 157680000,
+    "prev": "813a76ebe12eaaea9e402d23f0abed2106f864cca54a90d9a71955b64fd53871",
+    "seqno": 27,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMSY03vDcH1w6lvG0wdeJzEE+35/X62UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslFKSzC1TU0zTDMwszAzNEg2MTJJMLUzSzM2SLVJSLIwNE9NMjc1MU1OU
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgqJmzhYsLUL2jG0i9qwtQrhQsYZFsYWmS
+ZGKcaJmUmmxgbmGaagmEaclAMSOLFAMDkMLi1KK8xNxUoOrCpMwSpVodJaBIWWZy
+Ksi9IGuhssn5SaXpevlF6UBNBUX5JfnJ+TlA4YySkgIrkK6SygKQsvLUpHioAfFJ
+mXkpQA8DNZSlFhVn5ucpWRkCVSaXZIJMNDS2NDcztDAzN9RRSq0oyCxKjc8EqTA1
+N7MwAAKQNallIF8YGieam6UmpRoapSYmpiZappoYGKUYGacZJCalphgZGpilWZiZ
+JCcnmpokWhqkWCaaG1qamiaZmaSlmBpbmBsqgbxUmJevZGVkDnRnYjrQzOLM9LzE
+ktKiVKXaTiYZFgZGJgY2ViZQnDFwcQrAYvLvLP7f7I0bnHcLcPqeW5G8S2jPs+zm
+q5FKV/5mb7nG8sVQYnLPlHQ9I7YvEuLcevouL+c8SQ94nqpUvCOeWd4jsnFD64WL
+s5tnav0Uqs3qEDxgLK7FZKP89kaKu4fHoVXrlnHv+W3A5Vsh2vpg/6NVDLo/G1N9
+QrimV+1Yl9u1b+UZ2/pGXpuEQpY5uu9ZMloY41pZTlasebRw0a/Ysuurv848uDp6
+7cn3F3Kmxt69xlR0/PGN2Yvf979qW9HRt3dqAIsT23urx646CzbPPBG+Wf7v3HnW
++pmXDWQOmf9V4zh1Wz1W9JekyiqHR/wHNuocThTV2fZdTLyq4mOZ9YV1vT3ys9/7
+9XekH5nCr8g32zz8G/fXOx033Lr29XN/07ZfpG6r45y7e3fVu+V/FgR7my5ZYWkT
+lfRNL/nt8bqdBZbz6qJPL1yzwF1k+scnVq6/I9zYStiPx1qoSd6+3Moo1dPnfmTO
+t7ipq83WnJ9q77O34qICj7+kkeJyieLOySabDXrqVqeu+hr5Klrj63Z1lh9uShfi
+0zdOe/jsysyWFReb1cusln3MOvpHRXD3tWDWWVv6tgdkPpPfrez5aHf5/WUrozpL
+o/RvcgTfFv9vdaCkdr/5jMf/X3zjn3TbX/6G6fINQhe3vXFYsCqwL3qj5KUXC7ku
+3z+lf/GiuIo6z56L53fMmGkcfNrbpTE8sVUwRMZg1lc9xQfrsv8eaIubAgA=
+=HHcS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/qbit
+
+==================================================================
