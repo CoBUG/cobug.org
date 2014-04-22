@@ -84,6 +84,7 @@ form_validator() ->
     wf:wire(#script { script="$('.form').val('');" }),
     wf:wire(#script { script="$('#recaptcha_response_field').val('');" }),
     wf:info("Usernfo: ~p ~p <~p>~n", [Fname, Lname, Email]),
+    db_mgr:add_user(Fname,Lname,Uname,Email,Hasxmpp,HasRemind,IsCo),
     Cfg = wf:config(erlover),
     erlover:send(
         proplists:get_value(pushover_token, Cfg),
@@ -93,5 +94,4 @@ form_validator() ->
             {"title", "New CoBUG Member!"},
             {"sound", "spacealarm"}
       ]),
-    db_mgr:add_user(Fname,Lname,Uname,Email,Hasxmpp,HasRemind,IsCo),
     ok.
