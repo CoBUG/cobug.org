@@ -28,6 +28,7 @@ sidebar() ->
 		#list {
 			body= [
 				#listitem { body=[#link{ text="Home", url="/"}]},
+				#listitem { body=[#link{ text="News", url="/news"}]},
 				#listitem { body=[#link{ text="Contact", url="/contact"}]},
 				#listitem { body=[#link{ text="Meetings", url="/meetings"}]},
 				#listitem { body=[#link{ text="Tutorials", url="/tutorials"}]},
