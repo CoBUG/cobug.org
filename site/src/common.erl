@@ -60,10 +60,12 @@ sidebar() ->
 		#h3 { text="*BSD", class="co" },
 		#list {
 			body= [
+				#listitem { body=[#link{ text="PC-BSD", url="http://www.pcbsd.org/"}]},
 				#listitem { body=[#link{ text="OpenBSD", url="http://www.openbsd.org"}]},
 				#listitem { body=[#link{ text="NetBSD", url="http://www.netbsd.org"}]},
 				#listitem { body=[#link{ text="FreeBSD", url="http://www.freebsd.org"}]},
 				#listitem { body=[#link{ text="DragonFlyBSD", url="http://www.dragonflybsd.org"}]},
+				#listitem { body=[#link{ text="EdgeBSD", url="http://edgebsd.org/"}]},
 				#listitem { body=[#link{ text="Bitrig", url="http://www.bitrig.org"}]}
 			]
 		}
