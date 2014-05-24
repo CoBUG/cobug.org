@@ -20,7 +20,10 @@ inner_body() ->
     [
 	#h2 { text="BSD Tutorials" },
 	#hr{},
-	#p { text="No tutorials yet - Check back later tho! I am working on a few!" },
+	#p { body= [
+                "All the CoBUG tutorials / talks can be found ",
+                #link{ text="here.", url="http://slides.cobug.org" }
+    ]},
 	#hr{},
 	common:footer()
     ].
