@@ -44,6 +44,12 @@ sidebar() ->
 			body= [
 				#listitem { body= [
 						#bubble{
+							text="2014-05-28",
+							bubble_title="Meeting at The Daily Grind",
+							bubble_body= [
+								"Meeting starts at 6:30pm. Topics will include OpenSSH and why you should use it!"
+							]},
+						#bubble{
 							text="2014-04-30",
 							bubble_title="Meeting at The Daily Grind",
 							bubble_body= [
