@@ -36,7 +36,11 @@ sidebar() ->
 				#listitem { body=[#link{ text="Around the Web", url="/aroundtheweb"}]},
 				#listitem { body=[#link{ text="Mailing List", url="/mailing/list"}]},
 				#listitem { body=[#link{ text="XMPP", url="/xmpp"}]},
-				#listitem { body=[#link{ text="Friends", url="/friends"}]}
+				#listitem { body=[#link{ text="Friends", url="/friends"}]},
+				#listitem {body=[
+					#literal { html_encode=false, text="<a href=\"https://plus.google.com/111589217766561596353\" rel=\"publisher\">Google+</a>"}
+
+				]}
 			]
 		},
 		#h3 { text="Events", class="co" },
