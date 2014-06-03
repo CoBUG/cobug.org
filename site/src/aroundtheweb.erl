@@ -59,7 +59,9 @@ inner_body() ->
     ]},
     #container_12 { body= [
         #grid_4 { body= #panel { body=[
-                    #literal{ html_encode=false, text="<g:community href=\"https://plus.google.com/communities/112224531372695972083\"></g:community>" }
+                    #literal{ html_encode=false, text="<g:community href=\"https://plus.google.com/communities/112224531372695972083\"></g:community>", }
+                    #br{},
+                    #link { text="Google+", url="https://plus.google.com/111589217766561596353", rel="publisher" }
                 ]
                 }
             },
