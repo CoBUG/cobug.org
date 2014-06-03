@@ -60,10 +60,7 @@ inner_body() ->
     #container_12 { body= [
         #grid_4 { body= #panel { body=[
                     #literal{ html_encode=false, text="<g:community href=\"https://plus.google.com/communities/112224531372695972083\"></g:community>" },
-                    #br{},
-                    #literal { html_encode=false, text="<a href=\"https://plus.google.com/111589217766561596353\" rel=\"publisher\">Google+</a>"}
-                ]
-                }
+                ]}
             },
         #grid_4 { body= #panel { body=[
                     #image{image="/images/cobsd_trimmed.png"},
