@@ -59,9 +59,8 @@ inner_body() ->
     ]},
     #container_12 { body= [
         #grid_4 { body= #panel { body=[
-                    #literal{ html_encode=false, text="<g:community href=\"https://plus.google.com/communities/112224531372695972083\"></g:community>" }
-                ]
-                }
+                    #literal{ html_encode=false, text="<g:community href=\"https://plus.google.com/communities/112224531372695972083\"></g:community>" },
+                ]}
             },
         #grid_4 { body= #panel { body=[
                     #image{image="/images/cobsd_trimmed.png"},
