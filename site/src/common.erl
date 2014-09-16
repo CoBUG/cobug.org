@@ -38,6 +38,7 @@ sidebar() ->
 				#listitem { body=[#link{ text="XMPP", url="/xmpp"}]},
 				#listitem { body=[#link{ text="Friends", url="/friends"}]},
 				#listitem {body=[
+
 					#literal { html_encode=false, text="<a href=\"https://plus.google.com/111589217766561596353\" rel=\"publisher\">Google+</a>"}
 
 				]}
@@ -47,30 +48,24 @@ sidebar() ->
 		#list {
 			body= [
 				#listitem { body= [
+						#bubble{
+							text="2014-09-24",
+							bubble_title="Meeting in Colorado Springs",
+							bubble_body=[
+								"Meeting starts at 6:30pm. Topic will be 3D Printing with OpenBSD! - Location TBD"
+							]},
+						#bubble{
+							text="2014-07-30",
+							bubble_title="Meeting in Colorado Springs",
+							bubble_body=[
+								"Meeting starts at 6:30pm. Topic will be FreeBSD's HAST! - Location TBD"
+							]},
 					    #bubble{
 						text="2014-07-02",
 						bubble_title="Meeting at Tthe Daily Grind",
 						bubble_body=[
 							"Meeting starts at 6:30pm. Topic will be PF!"
-						]},
-						#bubble{
-							text="2014-06-04",
-							bubble_title="Meeting at Trinity Brewery in Colorado Springs",
-							bubble_body= [
-								"Meeting starts at 7pm. Topic to be announced later!"
-							]},
-						#bubble{
-							text="2014-05-28",
-							bubble_title="Meeting at The Daily Grind",
-							bubble_body= [
-								"Meeting starts at 6:30pm. Topics will include OpenSSH and why you should use it!"
-							]},
-						#bubble{
-							text="2014-04-30",
-							bubble_title="Meeting at The Daily Grind",
-							bubble_body= [
-								"Meeting starts at 6:30pm. Topics will include PF style things like PF and OpenSMTPD."
-							]}
+						]}
 					]}
 			]
 		},
