@@ -22,16 +22,18 @@ Get a copy of the sensitive data mentioned above! :D
 
 Run the migration script (Only needs to be done if erlang version has changed):
 
-    `./fix-slim-release`
+    ./fix-slim-release
 
 Check out broken files:
 
-    `git checkout site/templates/bare.html site/templates/mobile.html`
+    git checkout site/templates/bare.html site/templates/mobile.html
 
 Build:
 
-    `make`
+    make
 
 Run:
 
-    `./bin/nitrogen console` (You might have to start inets manually using `inets:start().`
+    ./bin/nitrogen console
+
+(You might have to start inets manually using `inets:start().`)
