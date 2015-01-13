@@ -5,3 +5,5 @@ deps
 *.plt
 erl_crash.dump
 log/*
+etc/app.config
+etc/sigma_sql.config
