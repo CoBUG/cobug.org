@@ -23,6 +23,7 @@ inner_body() ->
 	#p { body=[
 		   "Mailing list archives can be found ",
 		   #link { url="https://cobug.org/archive/", text="here." },
+		   #br{},
 		   "The following mailing lists are available for public use:"
 		  ]},
     #list { body=[
