@@ -41,7 +41,7 @@ inner_body() ->
 								 ,url="http://cdbug.org/"
 							     }
 							  ,#hr{}
-							  ,"Capital District *BSD User Group"
+							  ,"Capital District *BSD User Group serving the NY Captial District (Albany, Troy, Schenectedy) area!"
 							  ]
 						   }, class="webitem"
 				    }
