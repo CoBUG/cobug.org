@@ -20,8 +20,11 @@ inner_body() ->
     [
 	#h2 { text="Mailing Lists" },
     #hr{},
-	#p { text="Mailing list archives can be found <a href='https://cobug.org/archive/'>here</a>." },
-	#p { text="The following mailing lists are available for public use:" },
+	#p { body=[
+		   "Mailing list archives can be found ",
+		   #link { url="https://cobug.org/archive/", text="here." },
+		   "The following mailing lists are available for public use:"
+		  ]},
     #list { body=[
         #listitem{ body="<b>announce@</b> Used for announcements primarily pertaining to CoBUG, but occasionally general BSD announcements as well." },
         #listitem{ body="<b>talk@</b> General discussion." },
@@ -56,7 +59,7 @@ inner_body() ->
           ]}
     ]},
     #h3 { text="List Netiquette" },
-    #list { 
+    #list {
         numbered=true,
         body= [
         #listitem{ body="Don't be a jerk." },
