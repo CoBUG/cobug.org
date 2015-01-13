@@ -19,17 +19,33 @@ body() ->
 
 inner_body() ->
     [
-	#h2 { text="Friends" },
-	#hr{},
-    #container_12 { body= [
-        #grid_4 { body= #panel { body=[
-                    #link { body=[ #image{ image="/images/nycbug.png", style="width: 178px" }], url="http://www.nycbug.org/" },
-                    #hr{},
-                    "NYC*BUG (pronounced 'nice bug') is the *BSD user group serving the metropolitan NYC area!"
-                    ]
-                }, class="webitem"
-            }
-    ]},
-	#hr{},
-	common:footer()
+     #h2 { text="Friends" },
+     #hr{},
+     #container_12 { body= [
+			    #grid_4 { body= #panel { body=[
+							   #link {
+							      body=[
+								    #image{ image="/images/nycbug.png", style="width: 178px" }
+								   ]
+								 ,url="http://www.nycbug.org/" }
+							  ,#hr{}
+							  ,"NYC*BUG (pronounced 'nice bug') is the *BSD user group serving the metropolitan NYC area!"
+							  ]
+						   }, class="webitem"
+				    },
+			    #grid_4 { body= #panel { body=[
+							   #link {
+							      body=[
+								    #image{ image="/images/cdbug.png", style="width: 178px" }
+								   ]
+								 ,url="http://cdbug.org/"
+							     }
+							  ,#hr{}
+							  ,"Capital District *BSD User Group"
+							  ]
+						   }, class="webitem"
+				    }
+			   ]},
+     #hr{},
+     common:footer()
     ].

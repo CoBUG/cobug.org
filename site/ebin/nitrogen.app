@@ -7,5 +7,5 @@
               {env,[]},
               {modules,[aroundtheweb,common,contact,db_mgr,element_bubble,
                         friends,index,mailing_list,meetings,members,mobile,
-                        nitrogen_app,nitrogen_inets,nitrogen_sup,tutorials,
-                        xmpp]}]}.
+                        news,nitrogen_app,nitrogen_inets,nitrogen_sup,
+                        tutorials,xmpp]}]}.
