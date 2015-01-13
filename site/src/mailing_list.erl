@@ -20,6 +20,7 @@ inner_body() ->
     [
 	#h2 { text="Mailing Lists" },
     #hr{},
+	#p { text="Mailing list archives can be found <a href='https://cobug.org/archive/'>here</a>." },
 	#p { text="The following mailing lists are available for public use:" },
     #list { body=[
         #listitem{ body="<b>announce@</b> Used for announcements primarily pertaining to CoBUG, but occasionally general BSD announcements as well." },
