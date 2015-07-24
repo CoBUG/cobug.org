@@ -14,10 +14,11 @@ rand_str() ->
 
 
 header() ->
-    #html5_header{ body= [
-			  #image{ image="/images/cobsd_trimmed.png", class="logo" },
-			  #h2{ text="Colorado BSD Users Group", class="pullright" }
-			 ] }.
+    #html5_header{
+       body= [
+	      #image{ image="/images/cobsd_trimmed.png", class="logo" },
+	      #h2{ text="Colorado BSD Users Group", class="pullright" }
+	     ] }.
 
 footer() ->
     #html5_footer{ body="CoBUG.org - 2014" }.
