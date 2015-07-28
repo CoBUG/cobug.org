@@ -21,7 +21,9 @@ header() ->
 	     ] }.
 
 footer() ->
-    #html5_footer{ body="CoBUG.org - 2014" }.
+    #html5_footer{ body= [
+			  "CoBUG.org - 2014-2015"
+			 ]}.
 
 sidebar() ->
     [
