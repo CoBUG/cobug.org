@@ -17,10 +17,6 @@ body() ->
 			 ]}.
 
 inner_body() ->    [
-		    common:header(),
-		    %% #grid_2 { body=sidebar() },
-		    #grid_2 { body=common:sidebar() },
-		    #grid_10 { body=inner_body() }
 		    #h2 { text="Who We Are" },
 		    #hr{},
 		    #p { text="Created in 2014, CoBUG is a completely open BSD community, \
