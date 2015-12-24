@@ -10,21 +10,24 @@ title() -> "CoBUG".
 
 body() ->
     #container_12 { body=[
-	common:header(),
-        %% #grid_2 { body=sidebar() },
-	#grid_2 { body=common:sidebar() },
-        #grid_10 { body=inner_body() }
-    ]}.
+			  common:header(),
+			  %% #grid_2 { body=sidebar() },
+			  #grid_2 { body=common:sidebar() },
+			  #grid_10 { body=inner_body() }
+			 ]}.
 
-inner_body() ->
-    [
-	#h2 { text="Who We Are" },
-	#hr{},
-	#p { text="Created in 2014, CoBUG is a completely open BSD community, \
+inner_body() ->    [
+		    common:header(),
+		    %% #grid_2 { body=sidebar() },
+		    #grid_2 { body=common:sidebar() },
+		    #grid_10 { body=inner_body() }
+		   ]	#h2 { text="Who We Are" },
+		   #hr{},
+		   #p { text="Created in 2014, CoBUG is a completely open BSD community, \
 	established with the intention of spreading love for the BSDs." },
-	#p { text="CoBSD offers a number of free community oriented features in \
+		   #p { text="CoBUG offers a number of free community oriented features in \
 	the hopes of facilitating growth, awareness, hacking and use of \
 	*BSD in Colorado." },
-	#hr{},
-	common:footer()
-    ].
+		   #hr{},
+		   common:footer()
+		       ].
