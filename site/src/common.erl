@@ -22,7 +22,7 @@ header() ->
 
 footer() ->
     #html5_footer{ body= [
-			  "CoBUG.org - 2014-2015"
+			  "CoBUG.org - 2014-2016"
 			 ]}.
 
 sidebar() ->
