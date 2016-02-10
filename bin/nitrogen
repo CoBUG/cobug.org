@@ -107,7 +107,7 @@ elif [ "$RUNNER_SCRIPT_DATA" = "slim" ]; then
         exit 1
     fi
     SYSTEM_HOME_BIN=${SYSTEM_ERL_PATH%/*}
-    ROOTDIR=$SYSTEM_HOME_BIN/../lib/erlang
+    ROOTDIR=$SYSTEM_HOME_BIN/../lib/erlang16
     ERTS_PATH=$ROOTDIR/erts-$ERTS_VSN/bin
     unset SYSTEM_ERL_PATH
     unset SYSTEM_HOME_BIN
